@@ -233,3 +233,5 @@
 
 内容涵盖：仓库/分支/提交/拉取请求的核心概念、官方五步流程（创建仓库 → 创建分支 → 提交更改 → 打开 PR → 合并 PR）、网页与命令行操作对照，以及针对本仓库的 PR 实操练习建议。这是配合本笔记同步流程补上的 GitHub 协作技能。
 
+新增独立笔记 `GITHUB-SKILLS-学习笔记.md`，来源为 GitHub Skills <https://skills.github.com/> 及各课程仓库。内容涵盖：Skills 交互式课程的启动方式、官方课程地图（第一天/第一周/Copilot/Actions/安全/迁移）、重点课《Review pull requests》的完整五步（打开 PR、分配、审查、建议更改、合并）及其理论基础，另附《Introduction to GitHub》《Communicate using Markdown》大纲。第 10 节。
+
