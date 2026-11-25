@@ -235,3 +235,20 @@
 
 新增独立笔记 `GITHUB-SKILLS-学习笔记.md`，来源为 GitHub Skills <https://skills.github.com/> 及各课程仓库。内容涵盖：Skills 交互式课程的启动方式、官方课程地图（第一天/第一周/Copilot/Actions/安全/迁移）、重点课《Review pull requests》的完整五步（打开 PR、分配、审查、建议更改、合并）及其理论基础，另附《Introduction to GitHub》《Communicate using Markdown》大纲。第 10 节。
 
+---
+
+## 11. 可导入的 WorkBuddy 技能包（2026-11-25）
+
+上面三份笔记已改造成标准 WorkBuddy 技能包结构，放在 `skills/` 目录下，可随本仓库同步到任意电脑：
+
+| 技能包 | 用途 | 参考文件 |
+| -- | -- | -- |
+| `skills/capcut-video-guide/` | 剪映视频制作：课程大纲、操作思路、学习路径、实操练习 | `references/course-catalog.md`、`techniques.md`、`learning-path.md` |
+| `skills/github-collaboration-guide/` | GitHub 协作：Hello World 五步、GitHub Skills 课程地图、PR 审查方法 | `references/hello-world.md`、`github-skills.md` |
+
+每个包以 `SKILL.md`（YAML frontmatter + 指令正文）定义触发词与使用方式，详细内容放 `references/`，由技能按需读取。
+
+**在另一台电脑导入**：克隆本仓库 → 打开 WorkBuddy 侧边栏「专家·技能·连接器 → 技能」→ 「添加技能 → 上传技能」→ 选择对应技能包目录（或打包成 zip）→ 导入后即可在对话中调用。
+
+**注意**：技能包是本地文件，不会随 WorkBuddy 账号自动跨设备同步；换设备需重新导入。技能包收录的是文档知识，不含视频原片，也不执行 GitHub 写操作。
+
