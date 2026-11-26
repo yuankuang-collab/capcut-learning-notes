@@ -276,3 +276,33 @@
 | `skills/capcut-video-guide/references/ai-video.md` | 新建，技能包 AI 章节（同步补充细节） |
 | `skills/capcut-video-guide/SKILL.md` | 更新触发词、示例、v1.1.0 |
 
+---
+
+## 13. 创作能力进阶：网络教程与 GitHub 资源（2026-11-26）
+
+新增独立笔记 `创作能力进阶-自学资料库.md`。这次主动扩展学习范围，从「软件按钮怎么点」上升到可迁移的创作能力，并检索了 GitHub 上的相关资源。
+
+**网络教程（一手来源为主）**：
+- StudioBinder：三幕结构与八段细分（含量化页数）、分镜每格必标的三个维度（景别/角度+取景/运镜）、J-cut 与 L-cut 的声音过渡手法
+- Blackmagic Design 官方《The Colorist Guide to DaVinci Resolve 20》PDF：先校正后风格化的顺序铁律、Lift/Gamma/Gain、阴影 5–10%/高光 90%/留 10% headroom、Qualifier + Power Window 二级调色
+- Runway 官方帮助中心三篇：提示词迭代与五问法（Who/What/When/Where/How）、正向表述/避模糊词/避冲突指令、T2V 公式 `[Camera] shot of [subject] [action] in [environment]`、I2V 只写运动、时间戳与顺序提示词、长片用末帧续接
+
+**GitHub 资源（18 个仓库，API 核实 README 与元数据）**：
+- 提示词库：awesome-seedance（LearnPrompt 版 5 步法、ZeroLu 版分镜式模板）、awesome-image-video-prompts、短剧 skill 合集等
+- 工具：moviepy、MoneyPrinterTurbo、OpenMontage、pyCapCut（生成剪映草稿）、whisperer（抗幻觉字幕）
+- 工作流：ai-video-production-editor（按镜头选模型的 Auto 路由）、hyperframes 等
+- 全景清单：Awesome-Video-Diffusion、awesome-text-to-video 等
+
+新增第三个技能包 `skills/video-creation-fundamentals/`（SKILL.md + 4 个 references），专门覆盖「为什么这样拍/剪/写提示词」，与 `capcut-video-guide`（具体按钮操作）分工。
+
+所有条目按【一手-已核实】【一手-未抽查】【仅摘要】标注来源等级；star 数为 2026-11-26 快照。影视飓风等创作者的内容仅在视频中、未找到可引用的官方文字教程，已说明未纳入。
+
+| 本轮新增文件 | 说明 |
+| -- | -- |
+| `创作能力进阶-自学资料库.md` | 新建，网络教程 + GitHub 资源完整笔记 |
+| `skills/video-creation-fundamentals/SKILL.md` | 新建，第三个技能包定义 |
+| `skills/video-creation-fundamentals/references/story-and-editing.md` | 叙事/分镜/J-L cut |
+| `skills/video-creation-fundamentals/references/color-grading.md` | 调色流程与量化标准 |
+| `skills/video-creation-fundamentals/references/ai-prompts-official.md` | Runway 官方提示词公式 |
+| `skills/video-creation-fundamentals/references/github-resources.md` | GitHub 资源索引 |
+
